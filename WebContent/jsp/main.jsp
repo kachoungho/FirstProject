@@ -3,12 +3,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="../css/style.css" rel="stylesheet" type=text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>th125 JSP Template</title>
 </head>
 <body>
+<div class="main-letter">Music Is My Life 
+          <a class="btn btn-default" href="/home/index">HOME</a>
+       </div>
+<div class="main-overlay" ><!-- style="background-color: rgba(0,0,0,0.5);" -->
 	<form name="mainForm" action="" methode="post">
 		<table border="1" align="center">
+		<header id="main" >
+       
+    </header>
 			<tr>
 				<td align="left" font="30px">학   번</td>
 			</tr>
@@ -28,5 +36,6 @@
 			</tr>
 		</table>
 	</form>
+	</div>
 </body>
 </html>
