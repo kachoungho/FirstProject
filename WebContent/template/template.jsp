@@ -14,7 +14,7 @@
 				<td colspan="2">
 					<jsp:include page="../module/top.jsp" />
 				</td>
-			</tr>
+			</tr>i
 			<tr>
 				<td width="10%" valign="top">
 					<jsp:include page="../module/left.jsp"  flush="false"/>
@@ -23,12 +23,12 @@
 					<jsp:include page="${ CONTENT }"/>
 				</td>
 			</tr>
-			<tr>
-				<td width="150" valign="top" align="center">
+			<tr align="center">
+				<!-- <td width="150" valign="top" align="center">
 				 <img src="module/gr_2.gif" border="0"/>
 					
-				</td>
-				<td width="600" valign="top">
+				</td> -->
+				<td width="600" valign="top" colspan="2">
 					<jsp:include page="../module/bottom.jsp"/>
 				</td>
 			</tr>

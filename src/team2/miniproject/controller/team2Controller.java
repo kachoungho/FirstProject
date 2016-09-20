@@ -33,7 +33,7 @@ public class team2Controller extends HttpServlet {
 
 	@Override
 	public void init(ServletConfig config) throws ServletException { // 초기화를 위한 method 
-		String props = config.getInitParameter("propertyConfig");	//web.xml 설정 파일 읽어들임
+		String props = config.getInitParameter("propertyConfigProject");	//web.xml 설정 파일 읽어들임
 		
 		Properties pr = new Properties();
 		FileInputStream f = null;

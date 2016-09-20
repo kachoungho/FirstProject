@@ -18,10 +18,10 @@
 <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
 성 적 관 리
 </a><DIV style='display:none'>
-├ <a href=#noneOne onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneOne')?'block':'noneOne';>
+├ <a href="/FirstProject/currentGrade.do" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneOne')?'block':'noneOne';>
 성 적 조 회(금학기)
 </a><br>
-└ <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+└ <a href="/FirstProject/gradeView.do" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
 성 적 조 회(누 적)
 </a>
 </div>
@@ -29,7 +29,7 @@
 
 
 
-<a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+<a href="/FirstProject/pickSubject.do" onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
 수 강 신 청
 </a><DIV style='display:none'>
 </div>
@@ -43,10 +43,10 @@
 ├ <a href=#noneOne onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneOne')?'block':'noneOne';>
 휴 학 신 청
 </a><br>
-├ <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+├ <a href=#noneTwo onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneTwo')?'block':'noneTwo';>
 복 학 신 청
 </a><br>
-└ <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+└ <a href=#noneThr onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneThr')?'block':'noneThr';>
 전 과 신 청
 </a>
 </div>
@@ -60,10 +60,10 @@
 ├ <a href=#noneOne onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneOne')?'block':'noneOne';>
 강 의 계 획 서
 </a><br>
-├ <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+├ <a href=#none#noneTwo onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none#noneTwo')?'block':'none#noneTwo';>
 강 의 자 료
 </a><br>
-└ <a href=#none onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';>
+└ <a href=#noneThr onclick=this.nextSibling.style.display=(this.nextSibling.style.display=='noneThr')?'block':'noneThr';>
 과 제 물 제 출
 </a>
 </div>
