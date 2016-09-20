@@ -10,7 +10,10 @@
 	<br>
 	<table width="900" align=center>
 		<tr>
-			<td align="center"><b><Font size=2>2016학년도 여름 계절학기 수강신청</Font></b></td>
+			<td align="center"><b><Font size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016학년도 여름 계절학기 수강신청</Font></b></td>
 		</tr>
 	</table>
 	<table width="900">
@@ -57,7 +60,7 @@
 		<tr bgcolor="#D0D8FF" align="center">
 			<td width=25 rowspan="2">No</td>
 			<td width=70 rowspan="2">과목코드</td>
-			<td width=200 rowspan="2">교과목명<br> <B><FONT color=red>(강의계획서 조회는<BR>분반클릭)</FONT></B></td>
+			<td width=200 rowspan="2">교과목명<br></td>
 			<td width=55 rowspan="2">이수<BR>구분</td>
 			<td width=40 rowspan="2">분반</td>
 			<td width=40 rowspan="2">학점</td>
@@ -77,28 +80,25 @@
 			<td width="35">평점</td>
 		</tr>
 		<tr>
-			<td colspan="16" height="30" align="center">해당 자료가 존재하지 않습니다.</td>
+			<td colspan="16" height="30" align="center">해당 자료가 존재하지 않습니다. 과목을 선택해주세요</td>
 		</tr>	
 	</table>
 	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;
-	
-	<input type="text">
-	<select id="학과">
-		<option value="선택" >선택</option>
-		<option value="a" >a</option>
-		<option value="b" >b</option>
-		<option value="c" >c</option>
-		<option value="d" >d</option>
-		<option value="e" >e</option>
-	</select>
-	<br>
+	<table>
+		<p align="center">
+		<input type="text">
+		<input type="button" value=" 과목 검색 ">
+		&nbsp;&nbsp;&nbsp;
+		학과 선택 : <select name="학과 선택">
+				<option value="선택">선택</option>
+				<option value="공과">공과</option>
+				<option value="중국어과">중국어과</option>
+				<option value="디자인과">디자인과</option>
+				<option value="경영과">경영과</option>
+				<option value="etc">etc</option>
+			</select>
+		</p>	
+	</table>
 	<table width=900 border=1 cellpadding="0" cellspacing="0"  bordercolordark="white" bordercolorlight="#086E35">
 		<tr bgcolor="#D0D8FF" align="center">
 			<td width="100">수강코드</td>
@@ -135,12 +135,20 @@
 			<td>교양</td>
 			<td>B</td>
 		</tr>
+		<tr align="center">
+			<td>CEO11005</td>
+			<td>과목5</td>
+			<td>1</td>
+			<td>교양</td>
+			<td>A</td>
+		</tr>
+		<tr align="center">
+			<td>CEO11006</td>
+			<td>과목6</td>
+			<td>1</td>
+			<td>교양</td>
+			<td>A</td>
+		</tr>
 	</table>
 </body>
 </html>
-
-
-
-
-
-

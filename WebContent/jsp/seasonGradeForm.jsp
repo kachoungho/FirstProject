@@ -1,12 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 <title>종합정보시스템</title>
 </head>
 <body>
 <b>계절학기 성적조회</b><br><br>
+	<table width="900" align=center>
+		<tr>
+			<td align="center"><b><Font size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016학년도 여름 계절학기 수강신청</Font></b></td>
+		</tr>
+	</table>
 	<table width=900 border=1 cellpadding="0" cellspacing="0"  bordercolordark="white" bordercolorlight="#086E35"><!-- bordercolor="#D0D8FF" -->
 		<tr bgcolor="#D0D8FF" align="center">
 			<td rowspan="3" width="60">종합</td>
