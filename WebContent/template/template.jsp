@@ -14,12 +14,12 @@
 				<td colspan="2">
 					<jsp:include page="../module/top.jsp" />
 				</td>
-			</tr>i
+			</tr>
 			<tr>
-				<td width="10%" valign="top">
+				<td width="15%" valign="top">
 					<jsp:include page="../module/left.jsp"  flush="false"/>
 				</td>
-				<td width="90%" valign="top">
+				<td width="85%" valign="top">
 					<jsp:include page="${ CONTENT }"/>
 				</td>
 			</tr>

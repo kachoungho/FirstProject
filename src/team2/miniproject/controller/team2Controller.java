@@ -91,9 +91,15 @@ public class team2Controller extends HttpServlet {
 		}
 		
 		request.setAttribute("CONTENT", view);
+		if(view.equals("/jsp/logincheck.jsp")){
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/logincheck.jsp");
+			dispatcher.forward(request, response);
+		} else {
+			
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/template/template.jsp");
+			//RequestDispatcher dispatcher = request.getRequestDispatcher("/template.jsp");
+			dispatcher.forward(request, response);
+		}
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/template/template.jsp");
-		//RequestDispatcher dispatcher = request.getRequestDispatcher("/template.jsp");
-		dispatcher.forward(request, response);
 	}
 }
