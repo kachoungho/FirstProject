@@ -8,18 +8,10 @@
 <title>th125 JSP Template</title>
 </head>
 <body>
-	<header id="main">
-		<div class="main-letter">
-			Music Is My Life <a class="btn btn-default" href="/home/index">HOME</a>
-		</div>
-	</header>
 	<div class="main-overlay" style="background-color: rgba(0, 0, 0, 0.5);">
 		<!--  -->
 		<form name="mainForm" action="" method="post">
 			<table border="1" align="center">
-
-
-
 				<tr>
 					<td align="left" font="30px">학 번</td>
 				</tr>
