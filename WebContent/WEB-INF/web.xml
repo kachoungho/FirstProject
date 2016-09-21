@@ -2,6 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
   <display-name>FirstProject</display-name>
   
+  <!-- F:/th125/th125_Jsp_servlet/workspace/FirstProject/WebContent/WEB-INF/commandBoard.properties -->
  <!-- team2Controller.java -->
   <servlet>
   	<servlet-name>team2Controller</servlet-name>
