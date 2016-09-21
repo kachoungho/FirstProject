@@ -8,7 +8,7 @@ public class PickSubjectAction implements CommandAction {
 	@Override
 	public String process(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
-		return "/jsp/pickSubjectForm.jsp";
+		return "/jsp/pickSubjectForm.jsp" ;
 	}
 
 }

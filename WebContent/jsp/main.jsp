@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,7 +69,7 @@ html, body {
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>th125 JSP Template</title>
 </head>
-<body ><!-- background="images/gr18.jpg" -->
+<body background="jsp/images/IU1.jpg" Style="background-size:cover">
 	<div class="main-overlay"  ><!-- style="background-color: rgba(0, 0, 0, 0.5);" -->
 		<!--  -->
 		<form name="mainForm" action="/FirstProject/login.do" method="post">
@@ -97,13 +98,13 @@ html, body {
 			</table>
 
 			<table border="0" align="center">
-			<br>d
+			<br>
 			<tr align="center">
 				<td><input type="button" value="홈페이지"
-						onclick="document.location.href=''"></td>
+						onclick="javascript:alert('\n권한이 없습니다\n\n로그인 후 사용해주세요\n')"></td>
 				<td> </td><td> </td>
 				<td><input type="button" value="종합 정보 시스템"
-						onclick="document.location.href='/FirstProject/info.do'"></td>
+						onclick="javascript:alert('\n권한이 없습니다\n\n로그인 후 사용해주세요\n')"></td>
 				</tr>
 			</table>
 		</form>

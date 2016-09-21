@@ -32,8 +32,8 @@ public class team2Controller extends HttpServlet {
 	}
 
 	@Override
-	public void init(ServletConfig config) throws ServletException { // 초기화를 위한 method 
-		String props = config.getInitParameter("propertyConfigProject");	//web.xml 설정 파일 읽어들임
+	public void init(ServletConfig config) throws ServletException { // 珥덇린�솕瑜� �쐞�븳 method 
+		String props = config.getInitParameter("propertyConfigProject");	//web.xml �꽕�젙 �뙆�씪 �씫�뼱�뱾�엫
 		
 		Properties pr = new Properties();
 		FileInputStream f = null;
@@ -56,12 +56,12 @@ public class team2Controller extends HttpServlet {
 			String className = pr.getProperty(command);	//value : edu.kosta.boardAction.WriteFormAction
 			
 			try {
-				Class commandClass  = Class.forName(className);		//String 타입이였던 클래스이름을
-																					//Class.forName(className);	을 통해
-																					//Class이름으로 변경
-				Object commandInstance = commandClass.newInstance();		//객체 생성
+				Class commandClass  = Class.forName(className);		//String ���엯�씠���뜕 �겢�옒�뒪�씠由꾩쓣
+																					//Class.forName(className);	�쓣 �넻�빐
+																					//Class�씠由꾩쑝濡� 蹂�寃�
+				Object commandInstance = commandClass.newInstance();		//媛앹껜 �깮�꽦
 				
-				commandMap.put(command, commandInstance);		//commandMap.put(키값, 명령처리값)
+				commandMap.put(command, commandInstance);		//commandMap.put(�궎媛�, 紐낅졊泥섎━媛�)
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -91,11 +91,17 @@ public class team2Controller extends HttpServlet {
 		}
 		
 		request.setAttribute("CONTENT", view);
+		
 		if(view.equals("/jsp/logincheck.jsp")){
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/logincheck.jsp");
 			dispatcher.forward(request, response);
+		} else if(view.equals("/jsp/loginSuc.jsp")){
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/loginSuc.jsp");
+			dispatcher.forward(request, response);
+		}  else if(view.equals("/jsp/main.jsp")){
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/main.jsp");
+			dispatcher.forward(request, response);
 		} else {
-			
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/template/template.jsp");
 			//RequestDispatcher dispatcher = request.getRequestDispatcher("/template.jsp");
 			dispatcher.forward(request, response);
